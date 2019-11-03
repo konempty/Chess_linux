@@ -1,0 +1,38 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.217.138'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(63,32): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(63,32): warning :   serv_adr.sin_port = htons(atoi(argv[1]));
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(63,32): warning :                             ~~~~^~~~~~~~~
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(49,19): warning : unused variable ‘i’ [-Wunused-variable]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(49,19): warning :   int clnt_adr_sz, i;
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(49,19): warning :                    ^
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(109,23): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(109,23): warning :     len = strlen(buf1) + 1;
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(109,23): warning :           ~~~~~~~~~~~~~^~~
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(125,54): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(125,54): warning :      len += read(clnt_sock, &msg[len], total - len + 1);
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(125,54): warning :                                                       ^
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(143,34): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(143,34): warning :      len += read(clnt_sock, &ch, 1);
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(143,34): warning :                                   ^
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(183,36): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(183,36): warning :    len += read(rd_pipe, &msg[len], 1);
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(183,36): warning :                                     ^
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(206,61): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(206,61): warning :     total += read(players[turn], &msg[total + 2], len - total);
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(206,61): warning :                                                              ^
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(173,28): warning : unused variable ‘tmp’ [-Wunused-variable]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(173,28): warning :   List *data = (List*)arg, *tmp;
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(173,28): warning :                             ^~~
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,11): warning : unused variable ‘str_len’ [-Wunused-variable]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,11): warning :   int len, str_len = 0, total, i, j;
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,11): warning :            ^~~~~~~
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,34): warning : unused variable ‘j’ [-Wunused-variable]
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,34): warning :   int len, str_len = 0, total, i, j;
+C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\main.cpp(175,34): warning :                                   ^
+  Linking objects
+  Chess_linux_Server.vcxproj -> C:\Users\1117p\source\repos\Chess_linux_Server\Chess_linux_Server\bin\x64\Debug\Chess_linux_Server.out

@@ -1,0 +1,1 @@
+g++ -o "/home/khb/projects/Chess_Linux_Client/bin/x64/Debug/Chess_Linux_Client.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/khb/projects/Chess_Linux_Client/obj/x64/Debug/main.o
